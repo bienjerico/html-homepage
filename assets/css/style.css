@@ -1,0 +1,147 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+}
+.parallax {
+  min-height: 1000px;
+  background: url('/assets/img/bien-background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.parallax-gradient-cover {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 1000px;
+  position: absolute;
+  background: rgba(19,19,19,0);
+  background: -moz-linear-gradient(top, rgba(19,19,19,0) 0%, rgba(17,17,17,0) 0%, rgba(19,19,19,0) 0%, rgba(0,0,0,0) 0%, rgba(89,89,89,0) 0%, rgba(28,28,28,0) 0%, rgba(43,43,43,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0.09) 1%, rgba(1,1,1,1) 98%, rgba(0,0,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(19,19,19,0)), color-stop(0%, rgba(17,17,17,0)), color-stop(0%, rgba(19,19,19,0)), color-stop(0%, rgba(0,0,0,0)), color-stop(0%, rgba(89,89,89,0)), color-stop(0%, rgba(28,28,28,0)), color-stop(0%, rgba(43,43,43,0)), color-stop(0%, rgba(19,19,19,0)), color-stop(0%, rgba(19,19,19,0)), color-stop(1%, rgba(19,19,19,0.09)), color-stop(98%, rgba(1,1,1,1)), color-stop(100%, rgba(0,0,0,1)));
+  background: -webkit-linear-gradient(top, rgba(19,19,19,0) 0%, rgba(17,17,17,0) 0%, rgba(19,19,19,0) 0%, rgba(0,0,0,0) 0%, rgba(89,89,89,0) 0%, rgba(28,28,28,0) 0%, rgba(43,43,43,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0.09) 1%, rgba(1,1,1,1) 98%, rgba(0,0,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(19,19,19,0) 0%, rgba(17,17,17,0) 0%, rgba(19,19,19,0) 0%, rgba(0,0,0,0) 0%, rgba(89,89,89,0) 0%, rgba(28,28,28,0) 0%, rgba(43,43,43,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0.09) 1%, rgba(1,1,1,1) 98%, rgba(0,0,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(19,19,19,0) 0%, rgba(17,17,17,0) 0%, rgba(19,19,19,0) 0%, rgba(0,0,0,0) 0%, rgba(89,89,89,0) 0%, rgba(28,28,28,0) 0%, rgba(43,43,43,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0.09) 1%, rgba(1,1,1,1) 98%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(19,19,19,0) 0%, rgba(17,17,17,0) 0%, rgba(19,19,19,0) 0%, rgba(0,0,0,0) 0%, rgba(89,89,89,0) 0%, rgba(28,28,28,0) 0%, rgba(43,43,43,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0) 0%, rgba(19,19,19,0.09) 1%, rgba(1,1,1,1) 98%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#000000', GradientType=0 );
+}
+.parallax-header {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+}
+.parallax-header p {
+  font-family: 'Bungee', cursive;
+  color: #fff;
+  font-size: 60px;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+}
+.container {
+  background-color:#fff;
+  font-size:36px; 
+  padding: 50px 200px;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+}
+ul{
+  list-style: none;
+  text-align: center;
+}
+li {
+  padding: 50px 0px;
+  border-bottom: 1px solid #939393;
+  font-weight: normal;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+p{
+  font-family: 'Poiret One', cursive;
+  color: #000000;
+}
+a {
+  text-decoration: none;
+  color: #111111;
+  opacity: 0.8;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+}
+a:hover {
+  color: #000000;
+  opacity: 1; 
+}
+
+@media only screen and (max-width: 1200px) {
+  .parallax-header {
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .parallax-header p {
+      font-size: 40px;
+  }
+
+  .container {
+    font-size:36px; 
+    padding: 50px 150px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .parallax-header {
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .parallax-header p {
+      font-size: 30px;
+  }
+  .container {
+    font-size:30px; 
+    padding: 50px 80px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .parallax-header {
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .parallax-header p {
+      font-size: 15px;
+  }
+  .container {
+    font-size:20px; 
+    padding: 50px 60px;
+  }
+}
+@media only screen and (max-width:  240px) {
+  .parallax-header {
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .parallax-header p {
+      font-size: 10px;
+  }
+  .container {
+    font-size:10px; 
+    padding: 50px 40px;
+  }
+}
