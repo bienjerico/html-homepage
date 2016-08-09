@@ -101,11 +101,39 @@ a:hover {
   color: #000000;
   opacity: 1; 
 }
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1600px) {
+  .parallax {
+    height: 850px;
+  }
+  .parallax-gradient-cover {
+    height: 850px;
+  }
   
   .parallax-header {
     top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .parallax-header p {
+      font-size: 40px;
+  }
+
+  .container {
+    font-size:36px; 
+    padding: 50px 150px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .parallax {
+    height: 800px;
+  }
+  .parallax-gradient-cover {
+    height: 800px;
+  }
+  .parallax-header {
+    top: 35%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
