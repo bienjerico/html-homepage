@@ -8,7 +8,9 @@ html {
 }
 body {
   overflow-x:hidden;
+  background-color: #fff;
 }
+
 
 .parallax {
   height: 990px;
@@ -148,7 +150,7 @@ a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
-  .parallax {
+/*  .parallax {
     height: 750px;
     background-image:url('/assets/img/bien-background-tablet.jpg') ;
     background-repeat: no-repeat;
@@ -156,7 +158,7 @@ a:hover {
   }
   .parallax-gradient-cover {
     height: 750px;
-  }
+  }*/
   .parallax-header {
     top: 40%;
     left: 50%;
@@ -173,7 +175,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 414px) {
-  .parallax {
+/*  .parallax {
     height: 700px;
     background-image:url('/assets/img/bien-background-portrait.jpg') ;
     background-repeat: no-repeat;
@@ -181,7 +183,7 @@ a:hover {
   }
   .parallax-gradient-cover {
     height: 700px;
-  }
+  }*/
   .parallax-header {
     top: 45%;
     left: 50%;
@@ -198,7 +200,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 320px) {
-  .parallax {
+ /* .parallax {
     height: 550px;
     background-image:url('/assets/img/bien-background-portrait.jpg') ;
     background-repeat: no-repeat;
@@ -206,7 +208,7 @@ a:hover {
   }
   .parallax-gradient-cover {
     height: 550px;
-  }
+  }*/
   .parallax-header {
     top: 40%;
     left: 50%;
@@ -225,7 +227,7 @@ a:hover {
 
 
 @media only screen and (max-width:  240px) {
-  .parallax {
+/*  .parallax {
     height: 400px;
     background-image:url('/assets/img/bien-background-portrait.jpg') ;
     background-repeat: no-repeat;
@@ -233,7 +235,7 @@ a:hover {
   }
   .parallax-gradient-cover {
     height: 400px;
-  }
+  }*/
   .parallax-header {
     top: 15%;
     left: 50%;
